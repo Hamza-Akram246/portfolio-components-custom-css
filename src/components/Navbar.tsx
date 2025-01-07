@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import '../app/styles/navbar.css';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,19 +35,19 @@ const Navbar = () => {
         {isMenuOpen && (
           <ul className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
             <li className='navbar-link'>
-              <a href="#hero" onClick={toggleMenu}>Home</a>
+              <Link href="#hero" onClick={toggleMenu}/>Home
             </li>
             <li className='navbar-link'>
-              <a href="#about" onClick={toggleMenu}>About</a>
+              <Link href="#about" onClick={toggleMenu}/>About
             </li>
             <li className='navbar-link'>
-              <a href="#projects" onClick={toggleMenu}>Projects</a>
+              <Link href="#projects" onClick={toggleMenu}/>Projects
             </li>
             <li className='navbar-link'>
-              <a href="#skills" onClick={toggleMenu}>Skills</a>
+              <Link href="#skills" onClick={toggleMenu}/>Skills
             </li>
             <li className='navbar-link'>
-              <a href="#contact" onClick={toggleMenu}>Contact</a>
+              <Link href="#contact" onClick={toggleMenu}/>Contact
             </li>
 
           </ul>

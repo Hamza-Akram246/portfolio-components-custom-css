@@ -11,7 +11,7 @@ const Skills = () => {
           <p className='skills-text'>
             I have a solid foundationin web development, specializing in HTML, CSS, and JavaScript.
             My experience extands to using frameworks like React and Next.js to create dynamic and 
-            user-frindlyapplication. I'm also proficient in Tailwind CSS for afficient styling and
+            user-frindlyapplication. I&apos;m also proficient in Tailwind CSS for afficient styling and
             design. With a passion for learning, I stay updated on the latest technologies to
             enhance my skill set and contribute effectively to projects.
             </p>
